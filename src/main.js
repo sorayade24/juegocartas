@@ -1,6 +1,5 @@
 "use strict";
-exports.__esModule = true;
-require("./style.css");
+
 /// juego siete y medio
 var generarNumeroAleatorio = function () { return Math.floor(Math.random() * 13); };
 var puntuacionJugador = 0;
