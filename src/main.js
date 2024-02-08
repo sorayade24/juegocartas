@@ -19,7 +19,7 @@ var muestraPuntuacion = function () {
 var muestraCarta = function () {
     var numero = generarNumeroAleatorio();
     var imagen = document.getElementById("carta");
-    if (numero > 7 && numero < 10) {
+    if (numero > 7 && numero < 10) { 
         numero = numero + 2;
     }
     if (numero === 0) {
