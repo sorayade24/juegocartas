@@ -28,54 +28,54 @@ var muestraCarta = function () {
     switch (true) {
         case numero === 1:
             if (imagen instanceof HTMLImageElement) {
-                imagen.src = "../public/1_as-copas.jpeg";
+                imagen.src = "./public/1_as-copas.jpeg";
             }
             break;
         case numero === 2:
             if (imagen instanceof HTMLImageElement) {
-                imagen.src = "../public/2_dos-copas.jpeg";
+                imagen.src = "./public/2_dos-copas.jpeg";
             }
             break;
         case numero === 3:
             if (imagen instanceof HTMLImageElement) {
-                imagen.src = "../public/3_tres-copas.jpeg";
+                imagen.src = "./public/3_tres-copas.jpeg";
             }
             break;
         case numero === 4:
             if (imagen instanceof HTMLImageElement) {
-                imagen.src = "../public/4_cuatro-copas.jpeg";
+                imagen.src = "./public/4_cuatro-copas.jpeg";
             }
             break;
         case numero === 5:
             if (imagen instanceof HTMLImageElement) {
-                imagen.src = "../public/5_cinco-copas.jpeg";
+                imagen.src = "./public/5_cinco-copas.jpeg";
             }
             break;
         case numero === 6:
             if (imagen instanceof HTMLImageElement) {
-                imagen.src = "../public/6_seis-copas.jpeg";
+                imagen.src = "./public/6_seis-copas.jpeg";
             }
             break;
         case numero === 7:
             if (imagen instanceof HTMLImageElement) {
-                imagen.src = "../public/7_siete-copas.jpeg";
+                imagen.src = "./public/7_siete-copas.jpeg";
             }
             break;
         case numero === 10:
             if (imagen instanceof HTMLImageElement) {
-                imagen.src = "../public/10_sota-copas.jpeg";
+                imagen.src = "./public/10_sota-copas.jpeg";
             }
             numero = 0.5;
             break;
         case numero === 11:
             if (imagen instanceof HTMLImageElement) {
-                imagen.src = "../public/11_caballo-copas.jpeg";
+                imagen.src = "./public/11_caballo-copas.jpeg";
             }
             numero = 0.5;
             break;
         case numero === 12:
             if (imagen instanceof HTMLImageElement) {
-                imagen.src = "../public/12_rey-copas.jpeg";
+                imagen.src = "./public/12_rey-copas.jpeg";
             }
             numero = 0.5;
             break;
